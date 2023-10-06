@@ -11,7 +11,7 @@ function App() {
             <div className="min-w-screen min-h-screen">
                 <MainPage />
             </div>
-            <ReactQueryDevtools initialIsOpen={false} />
+            <ReactQueryDevtools initialIsOpen={false} position="bottom-right" />
         </QueryClientProvider>
     );
 }
